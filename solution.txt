@@ -1,0 +1,5 @@
+git stash apply applies the changes from the most recent stash to your working directory, but leaves the stash itself intact.
+
+git stash pop also applies the changes from the most recent stash to your working directory, but it removes the stash from the list of stashes.
+
+
