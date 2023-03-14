@@ -1,0 +1,28 @@
+.card-container {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  text-align: left;
+  margin-left: 5px;
+  padding-left: 38px;
+  padding-top: 18px;
+  background-color: #8e44ad;
+  transform: translate(600px, 20%);
+  font-weight: bold;
+  column-gap: normal;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 12px;
+  justify-self: baseline;
+}
+img {
+  border-radius: 45px;
+  border: 3px solid white;
+}
+.App {
+  background-color: #e056fd;
+  height: 100%;
+  width: 200%;
+}
