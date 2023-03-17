@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Imgloader from "./Img";
+import CharCount from "./assign2/CharCounter";
+import SignUp from "./assign3/Signup";
+import Login from "./assign3/Login";
+import "./style.css";
 function App() {
+  const [value, setValue] = useState(true);
+
+  function handleClick() {
+    setValue(!value);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Imgloader />
+      <CharCount />
+      <br />
+      <br />
+      <div>
+        {" "}
+        <div>
+          {value ? <SignUp /> : " "}
+          {!value ? <Login /> : " "}
+          {value ? (
+            <button> Create Account</button>
+          ) : (
+            <button onClick={handleClick}> Create Account</button>
+          )}
+          {value ? (
+            <button onClick={handleClick}> SignIn/ Login</button>
+          ) : (
+            <button> SignIn/ Login</button>
+          )}
+        </div>
+      </div>
+    </>
   );
 }
 

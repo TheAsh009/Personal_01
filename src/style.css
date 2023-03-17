@@ -1,0 +1,41 @@
+h1,
+p {
+  font-family: Lato;
+}
+.parent {
+  /* border: 1px solid black; */
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  border: 1px solid rgb(180, 167, 167);
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+img {
+  height: 200px;
+  width: 400px;
+}
+
+#btn {
+  margin: 20%;
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.Count {
+  display: block;
+  margin-left: 50%;
+}
+.btns {
+  margin-left: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
