@@ -1,0 +1,71 @@
+.CustomeDashBoardContainer{
+    margin-top: 1rem;
+    background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-office-items-picture-desk-on-the-desktop-picture-image_666140.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leftContainer{
+    width: 30%;
+    margin: 0 3rem;
+    padding: 2rem 1rem;
+}
+.leftContainer > p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.leftContainer > h2 + p{
+    font-size: 21px;
+}
+.leftContainer > h2{
+    font-size: 45px;
+}
+.buttonPauseText{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+}
+.buttonPauseText > button{
+    padding: 15px 30px;
+    border: none;
+    background-color: orange;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Pauseicon{
+    font-size: 40px;
+    color: orange;
+    cursor: pointer;
+}
+.buttonPauseText > p{
+    font-size: 18px;
+    font-weight: bold;
+    color: purple;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .leftContainer{
+        width: 90%;
+        margin: auto;
+        padding: 2rem 0rem;
+
+    }
+    .leftContainer > h2{
+        font-size: 30px;
+    }
+    .leftContainer > h2 + p{
+        font-size: 16px;
+    }
+    .buttonPauseText{
+        width: 80%;
+    }
+    .buttonPauseText>button{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
