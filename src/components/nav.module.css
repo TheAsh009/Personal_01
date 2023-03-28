@@ -1,0 +1,17 @@
+.navbar {
+  background-color: rgb(196, 190, 190);
+  box-shadow: 5px 10px 5px rgb(122, 122, 120);
+  height: 50px;
+  border: 1px solid gainsboro;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul li {
+  margin: 5px;
+}
