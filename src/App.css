@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+/*--------------------------------------------------------------------------*/
+.Main {
+  border: 1px solid;
+  height: 750px;
+  /* background-color: rgb(62, 126, 190); */
+}
+
+.Twosection {
+  margin-top: 10px;
+  border: 1px solid red;
+  height: 350px;
+  background-color: seagreen;
+  display: flex;
+}
+
+.Output {
+  margin-top: 10px;
+  border: 1px solid rgb(227, 15, 234);
+  height: 350px;
+  /* padding: 20px; */
+  background-color: paleturquoise;
+}
+
+.Form-Data {
+  border: 1px solid greenyellow;
+  width: 45%;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.Form-Data > h4 {
+  text-align: center;
+}
+
+.Corresponding-FormData {
+  border: 1px solid greenyellow;
+  width: 45%;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  width: 450px;
+  height: 30px;
+  gap: 20px;
+}
+
+form > button {
+  width: 100px;
+  margin-left: 150px;
+}
