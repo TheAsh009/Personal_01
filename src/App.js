@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import ContextAssignment from "./Day-4/ContextAssignment";
 
 function App() {
   return (
@@ -18,6 +17,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <ContextAssignment />
     </div>
   );
 }
